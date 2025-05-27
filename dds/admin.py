@@ -1,4 +1,3 @@
-from django.contrib import admin
 from .models import (
 	CashFlowType,
 	CashFlowStatus,
@@ -6,6 +5,9 @@ from .models import (
 	CashFlowSubCategory,
 	CashFlow
 )
+
+from django.contrib import admin
+
 
 admin.site.register(CashFlow)
 admin.site.register(CashFlowType)
